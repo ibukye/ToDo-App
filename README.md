@@ -1,26 +1,32 @@
-# 高機能ToDoアプリ
+[Read in Japanese (日本語版はこちら)](./README.ja.md)
 
-**ReactとFirebaseで構築したリアルタイムToDoアプリケーションです。**
+---
+
+# High-Functionality ToDo App
+
+**A Real-Time ToDo Application Built with React and Firebase**
 
 [![Vercel](https://vercel.com/button)](https://to-do-app-react-two-tau.vercel.app)
 
-## 概要
+## Overview
 
-このアプリケーションは、基本的なToDo管理機能に加え、リアルタイムでのデータ同期、フィルタリング、ソート機能を備えた高機能なタスク管理ツールです。MUIを使ったモダンなUIと、ダークモード対応も特徴です。
+This application is a high-functionality task management tool that goes beyond basic ToDo management, featuring real-time data synchronization, filtering, and sorting capabilities.
 
-## 主な機能
+It boasts a modern UI built with MUI and supports dark mode as a key feature.
 
-- **リアルタイムなToDo管理 (CRUD)**: Firebase Firestoreとの連携による、ToDoの追加、更新、削除、読み込み。
-- **フィルタリング**: 「すべて」「未完了」「完了済み」でタスクを絞り込み表示。
-- **ソート**: 「タイトル」または「作成時間」での昇順・降順ソート。
+## Main Features
+
+- **Real-Time ToDo Management (CRUD)**: Seamless addition, updating, deletion, and retrieval of ToDos through integration with Firebase Firestore.
+- **Filtering**: Filter tasks by "All," "Incomplete," or "Completed" statuses.
+- **Sorting**: Sort tasks by "Title" or "Creation Time" in ascending or descending order.
 - **UI/UX**:
-    - Material-UI (MUI) を利用した、クリーンで直感的なデザイン。
-    - ダークモード対応。
-    - レスポンシブデザインによるレイアウトの安定化。
+  - Clean and intuitive design using Material-UI (MUI).
+  - Dark mode support.
+  - Responsive design for stable layouts across devices.
 
-## 使用技術
+## Technologies Used
 
-- **フロントエンド**: React, Vite
-- **UIライブラリ**: Material-UI (MUI)
-- **バックエンド/DB**: Firebase (Firestore)
-- **デプロイ**: Vercel
+- **Frontend**: React, Vite
+- **UI Library**: Material-UI (MUI)
+- **Backend/Database**: Firebase (Firestore)
+- **Deployment**: Vercel
