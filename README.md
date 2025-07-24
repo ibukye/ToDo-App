@@ -2,7 +2,7 @@
 
 **ReactとFirebaseで構築したリアルタイムToDoアプリケーションです。**
 
-[![Vercel](https://to-do-app-react-two-tau.vercel.app)]
+[![Deploy with Vercel](https://vercel.com/button)](https://to-do-app-react-two-tau.vercel.app)
 
 ## 概要
 
