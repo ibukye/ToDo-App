@@ -1,12 +1,26 @@
-# React + Vite
+# 高機能ToDoアプリ
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**ReactとFirebaseで構築したリアルタイムToDoアプリケーションです。**
 
-Currently, two official plugins are available:
+[![Vercel](to-do-app-react-two-tau.vercel.app)]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 概要
 
-## Expanding the ESLint configuration
+このアプリケーションは、基本的なToDo管理機能に加え、リアルタイムでのデータ同期、フィルタリング、ソート機能を備えた高機能なタスク管理ツールです。MUIを使ったモダンなUIと、ダークモード対応も特徴です。
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 主な機能
+
+- **リアルタイムなToDo管理 (CRUD)**: Firebase Firestoreとの連携による、ToDoの追加、更新、削除、読み込み。
+- **フィルタリング**: 「すべて」「未完了」「完了済み」でタスクを絞り込み表示。
+- **ソート**: 「タイトル」または「作成時間」での昇順・降順ソート。
+- **UI/UX**:
+    - Material-UI (MUI) を利用した、クリーンで直感的なデザイン。
+    - ダークモード対応。
+    - レスポンシブデザインによるレイアウトの安定化。
+
+## 使用技術
+
+- **フロントエンド**: React, Vite
+- **UIライブラリ**: Material-UI (MUI)
+- **バックエンド/DB**: Firebase (Firestore)
+- **デプロイ**: Vercel
